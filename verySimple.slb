@@ -1,0 +1,4 @@
+0 cc 114  hit pause_off 0  0 1  norm 0 127
+0 cc 115  hit record 0  0 1  norm 0 127
+0 cc 116  hit pause_on 0  0 1  norm 0 127
+0 cc 121  hit overdub 0  0 1  norm 0 127
