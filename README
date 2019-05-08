@@ -2,3 +2,8 @@ start jack server
 start sooperloopser slgui 
 start qjackctl
 run python midi controler program
+
+COMMANDS:
+	slgui (&) 		starts sooperlooper
+	jack_lsp 		lists jack ports
+	jack_connect	connects jack ports
