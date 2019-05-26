@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import rtmidi_python as rtmidi
 import RPi.GPIO as g
 import time as t

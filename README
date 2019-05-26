@@ -1,7 +1,8 @@
-start jack server
-start sooperloopser slgui 
-start qjackctl
-run python midi controler program
+STEPS:
+	start jack server
+	start sooperloopser slgui 
+	start qjackctl
+	run python midi controler program
 
 COMMANDS:
 	slgui (&) 		starts sooperlooper
