@@ -16,35 +16,35 @@ class loop:
 
     def rec(self):
         outport.send_message([0xb0, 0x73, self.loopNumber])
-        print("MIDI: Record loop "+self.loopNumber)
+        print("MIDI: Record loop "+str(self.loopNumber))
 
     def pause(self):
         outport.send_message([0xb0, 0x74, self.loopNumber])
-        print("MIDI: Pause loop "+self.loopNumber)
+        print("MIDI: Pause loop "+str(self.loopNumber))
 
     def unpause(self):
         outport.send_message([0xb0, 0x72, self.loopNumber])
-        print("MIDI: Unpause loop "+self.loopNumber)
+        print("MIDI: Unpause loop "+str(self.loopNumber))
 
     def mute(self):
         outport.send_message([0xb0, 0x75, self.loopNumber])
-        print("MIDI: Mute loop "+self.loopNumber)
+        print("MIDI: Mute loop "+str(self.loopNumber))
 
     def unmute(self):
         outport.send_message([0xb0, 0x76, self.loopNumber])
-        print("MIDI: unMute loop "+self.loopNumber)
+        print("MIDI: unMute loop "+str(self.loopNumber))
 
     def undo(self):
         outport.send_message([0xb0, 0x77, self.loopNumber])
-        print("MIDI: Undo loop "+self.loopNumber)
+        print("MIDI: Undo loop "+str(self.loopNumber))
 
     def replace(self):
         outport.send_message([0xb0, 0x78, self.loopNumber])
-        print("MIDI: Replace loop "+self.loopNumber)
+        print("MIDI: Replace loop "+str(self.loopNumber))
 
     def dub(self):
         outport.send_message([0xb0, 0x79, self.loopNumber])
-        print("MIDI: Overdub loop "+self.loopNumber)
+        print("MIDI: Overdub loop "+str(self.loopNumber))
 
 
 
