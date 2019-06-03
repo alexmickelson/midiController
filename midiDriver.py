@@ -16,8 +16,8 @@ def pedal2():
 
 
 #init rtmidi
-outport = rtmidi.MidiOut()
-outport.open_virtual_port("vp")
+# outport = rtmidi.MidiOut()
+# outport.open_virtual_port("vp")
 
 loop1 = lsm.loopStateMachine(1)
 
@@ -35,3 +35,4 @@ while True:
                 break
             if i == 9:
                 print('Delete All Loops')
+                loop1.currentState=loop1.blankState
