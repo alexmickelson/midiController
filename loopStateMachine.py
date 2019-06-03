@@ -2,10 +2,8 @@ import states
 import midiFunctions as midi
 
 class loopStateMachine:
-    def __init__(self, loopNumber, pedal1, pedal2):
+    def __init__(self, loopNumber):
         print(loopNumber)
-        self.pedal1=pedal1
-        self.pedal2=pedal2
         self.midi=midi.loop(loopNumber)
 
         self.blankState=states.blankState(self)
