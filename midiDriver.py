@@ -29,5 +29,5 @@ while True:
         loop1.pressPedal2()
         for i in range(10):
             t.sleep(.1)
-            if NOT(pedal2()):
+            if not pedal2():
                 break
