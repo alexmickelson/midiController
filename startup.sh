@@ -4,7 +4,7 @@ jackd -R -p10 -t200 -dalsa -dhw:1 -p128 -n3 -r48000 -s &
 sleep .5s
 
 slgui &
-./simple.py &
+./midiDriver.py &
 sleep 5s
 
 jack_connect system:capture_2 			sooperlooper:common_in_1
